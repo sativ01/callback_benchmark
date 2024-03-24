@@ -78,7 +78,7 @@ let rows = [
   createData("Nigeria", "NG", 200962417, 923768),
   createData("Brazil", "BR", 210147125, 8515767),
 ];
-rows = new Array(1000).fill(1).map((_x) => {
+rows = new Array(100).fill(1).map((_x) => {
   const x = Math.floor((Math.random() * 100) / rows.length);
   return rows[x];
 });
